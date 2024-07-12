@@ -1,0 +1,507 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+.main-body {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/09646d25a041fa5bb063844eaad9fdae3af30fde-2880x1040.jpg?w=2160");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.main-body-txt {
+  height: 200px;
+  width: 35%;
+  /* border: 1px solid red; */
+  color: white;
+}
+#txt1 {
+  font-size: 26px;
+}
+#txt2 {
+  font-size: 16px;
+}
+#txt3 {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.main-body-box {
+  /* border: 1px solid white; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  height: 20px;
+  width: 25%;
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+.box2 {
+  height: 20px;
+  width: 25%;
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+.box3 {
+  height: 20px;
+  width: 25%;
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+.main-body1 {
+  height: 200px;
+  padding-top: 50px;
+}
+#txt11 {
+  font-size: 26px;
+}
+#txt12 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.options {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 190px;
+}
+.main-body2 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/35b6f7f51046e4e860050711a6cc7c6ddfb10322-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-body-txt2 {
+  height: 200px;
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#txt111 {
+  font-size: 26px;
+}
+#txt113 {
+  font-size: 10px;
+  margin: 5px 0px 20px 0px;
+}
+.box4 {
+  background-color: white;
+  height: 20px;
+  width: 80px;
+  font-size: 10px;
+  font-weight: 700;
+  padding-top: 5px;
+  color: black;
+}
+.main-body3 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/2fe347a0a97655fbcb8bb782f062e8522ecfebad-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 13px 0px;
+}
+.main-body-txt3 {
+  height: 200px;
+  width: 25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#txt112 {
+  margin: 5px 0px 20px 0px;
+}
+.main-body4 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/6c6c8eeb889e595ebe354186241b91049b87bb40-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-body-txt4 {
+  height: 200px;
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 50px;
+}
+.main-body5 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/33e1754f474d9d2896f724b524a51f2a023278b2-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 13px 0px;
+}
+.main-body-txt5 {
+  height: 200px;
+  width: 40%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 50px;
+}
+.main-body6 {
+  height: 300px;
+  width: 100%;
+  background-image: url("  https://cdn.sanity.io/images/qa41whrn/prod/52e4dd38bfc2f86dd4b8728b4d1fd39f8b30fe6a-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body-txt6 {
+  height: 200px;
+  width: 25%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.main-body7 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/72fb3fa9e0c4d6e600bc1b79551ef4cbba205719-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 13px 0px;
+}
+#txt11222 {
+  margin: 5px 0px 0px 0px;
+}
+.main-body8 {
+  height: 300px;
+}
+.main-body8 p {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.main-body8-img {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.body8-img1 {
+  height: 200px;
+  width: 24%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/dfe752b0a313bc267f5aa23a412594d71f933c2b-1536x1536.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.body8-img1-txt1 {
+  margin-left: 10px;
+  height: 50px;
+}
+.body8-img1-txt1 p {
+  font-size: 12px;
+  color: white;
+}
+.body8-img2 {
+  height: 200px;
+  width: 24%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/604102f5cbf9b160b4b545ab56561d152d06ac96-1536x1536.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.body8-img3 {
+  height: 200px;
+  width: 24%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/5bc14638c184c4c775b2f90210427c3dd4aa33c1-1536x1536.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.body8-img4 {
+  height: 200px;
+  width: 24%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/ec1fd75b27717e7a78c3fcf71e855d7298329370-1536x1536.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.main-body9 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/3fe7386927ec3ba13893df6dd4fe8dcafb576b25-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-body-txt4 {
+  height: 200px;
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 50px;
+}
+.box41 {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+.box411 {
+  height: 15px;
+  width: 35%;
+  font-size: 10px;
+  background-color: white;
+  color: black;
+  padding: 7px;
+}
+.box412 {
+  height: 15px;
+  width: 45%;
+  font-size: 10px;
+  background-color: white;
+  color: black;
+  padding: 7px;
+}
+.main-body10 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/ac3fc79415884460f1a7b3459b333ff091dee5a5-6000x2167.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 13px 0px 35px 0px;
+}
+.main-body-txt10 {
+  height: 200px;
+  width: 30%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.box42 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.box421 {
+  height: 15px;
+  width: 35%;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+.box422 {
+  height: 15px;
+  width: 45%;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+}
+.main-body11 {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/80d92bdf064393dc36761e47b7b28c7e6addb3e5-2880x1000.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main-body12 {
+  padding-top: 40px;
+}
+.main-body12 p {
+  font-size: 22px;
+}
+#main-body12-txt {
+  font-size: 10px;
+  color: #6d7177;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.main-body12-img {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-body12-img img {
+  margin-bottom: 7px;
+}
+.main-body13 {
+  height: 270px;
+  width: 95%;
+  margin: auto;
+}
+.main-body13 p {
+  text-align: left;
+  margin-bottom: 12px;
+}
+.main-body13-img {
+  display: flex;
+  justify-content: space-between;
+}
+.main-body13-img1 {
+  width: 22%;
+}
+.shoes1 {
+  height: 180px;
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/399844/01/sv01/fnd/IND/fmt/png/PUMA-Court-Shatter-Low-Men's-Sneakers");
+  background-size: cover;
+  background-position: center;
+}
+.shoes2 {
+  height: 180px;
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/394371/01/sv01/fnd/IND/fmt/png/Smashic-Unisex-Sneakers");
+  background-size: cover;
+  background-position: center;
+}
+.shoes3 {
+  height: 180px;
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/397126/01/sv01/fnd/IND/fmt/png/PUMA-Alfarun-Hyperwave-Men's-Sneakers");
+  background-size: cover;
+  background-position: center;
+}
+.shoes4 {
+  height: 180px;
+  background-image: url("https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/393294/01/sv01/fnd/IND/fmt/png/PUMA-x-one8-Shuffle-Better-V3-Men's-Sneakers");
+  background-size: cover;
+  background-position: center;
+}
+.discount {
+  height: 13px;
+  width: 23%;
+  background-color: #ac1e1e;
+  font-size: 8px;
+  font-weight: 700;
+  color: white;
+  padding-top: 3px;
+}
+.price {
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+#price-txt {
+  color: #ac1e1e;
+}
+
+@media screen and (max-width: 768px) {
+  .main-body-txt {
+    width: 55%;
+  }
+  .options {
+    width: 90%;
+    margin-left: 50px;
+  }
+  #txt12 {
+    font-size: 16px;
+  }
+  .main-body-txt2 {   
+    width: 50%;
+  }
+  .main-body-txt4 {
+    width: 60%;
+  }
+  .box41 {
+    width: 55%;
+  }
+  .box411 {
+    width: 30%;
+  }
+  .box412 {
+    width: 50%;
+  }
+  .main-body-txt10 {
+    width: 45%;
+  }
+  .box42 {
+    width: 90%;
+  }
+  .box421 {
+    height: 25px;
+    width: 40%;
+    font-size: 16px;
+  }
+  .box422 {
+    height: 25px;
+    width: 50%;
+    font-size: 16px;
+  }
+  #img1-12{
+    display: none;
+  }
+  #shoes-3{
+    display: none;
+  }
+  .main-body12 {
+    margin-bottom: 50px;
+  }
+}
